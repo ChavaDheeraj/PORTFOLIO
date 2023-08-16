@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+   /* General styles for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar li {
+  margin: 0 15px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Welcome section styles */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+#welcome-section h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.project-tile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-tile img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-tile h2 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#profile-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media query for screens smaller than 768px (example breakpoint) */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  #navbar {
+    padding: 5px 0;
+  }
+
+  #navbar li {
+    margin: 0 10px;
+  }
+
+  #welcome-section h1 {
+    font-size: 24px;
+  }
+
+  .project-tile h2 {
+    font-size: 20px;
+  }
+}
+
+</style>
+</head>
+<body>
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+  
+  <section id="projects">
+    <div class="project-tile">
+      <a href="project1.html">
+        <img src="project1.jpg" alt="Project 1">
+        <h2>Project 1</h2>
+      </a>
+    </div>
+    <!-- Add more project tiles here -->
+  </section>
+  
+  <!-- Add more sections as needed -->
+  
+  <footer>
+    <a id="profile-link" href="https://github.com/ChavaDheeraj" target="_blank">My GitHub Profile</a>
+  </footer>
+</body>
+</html>
